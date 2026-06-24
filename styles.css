@@ -1,0 +1,14 @@
+/* CSS By Gina Buzzetta */
+/* Color Palette
+deep black= #000004
+dark green= #1D402D
+off white= #FFF9EC
+burnt orange= #A85527
+golden yellow= #E4A030
+*/
+
+/*Global Styles (Mobile First)*/
+body {
+    background-color: #FFF9EC; 
+    color: #000004;
+}
