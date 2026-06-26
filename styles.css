@@ -60,25 +60,41 @@ main a:hover {
 }
 
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .card-row section {
     background-color: #FFF9EC;
-    border: 1px solid #A85527;
+    border: 2px solid #A85527;
     padding: 1rem;
 }
 
-img {
-    display: block;
-    margin-top: 0.5rem;
-    max-width: 100%;
+.card-row-two section {
+    background-color: #FFF9EC;
+    padding: 1rem;
 }
 
 aside {
-    background-color: #1D402D;
+    background-color: #A85527;
+    color:#FFF9EC;
     padding: 1rem;
     margin: 1rem;
+}
+
+aside a {
+    background-color:#1D402D;
+    color:#FFF9EC;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 20px;
+    text-transform:capitalize;
+}
+
+aside a:hover {
+    background-color: #E4A030;
+    color: #FFF9EC;
 }
 
 footer {
@@ -90,6 +106,14 @@ footer {
 
 /* ===== MEDIA QUERY (MEDIUM) ===== */
 @media screen and (min-width: 817px) {
+    body {
+        display:grid;
+        grid-template-columns:1fr 300px;
+}
+
+header,nav,footer {
+        grid-column: 1/-1;
+}
     nav ul {
         display: flex;
         justify-content: center;
@@ -99,8 +123,14 @@ footer {
         display: flex;
         gap: 1rem;
 }
-
     .card-row section {
-        width: 30%;
+        width: 40%;
+}
+    .card-row-two {
+        display: flex;
+        gap: 1rem;
+}
+    .card-row-two section {
+        width: 50%;
 }
 }
