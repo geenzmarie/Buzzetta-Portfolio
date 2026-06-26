@@ -9,6 +9,98 @@ golden yellow= #E4A030
 
 /*Global Styles (Mobile First)*/
 body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
     background-color: #FFF9EC; 
     color: #000004;
+}
+header {
+    background-color: #1D402D;
+    color: #FFF9EC;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #A85527;
+    padding: .5rem;
+}
+
+nav a {
+    color: #FFF9EC;
+    text-decoration: none;
+    padding: 0 .5rem;
+    display: inline-block;
+    text-transform:uppercase;
+}
+
+nav a:hover {
+    color: #1D402D;
+}
+
+main {
+    padding: 1rem;
+}
+
+main a {
+    background-color:#1D402D;
+    color:#FFF9EC;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 20px;
+    text-transform:capitalize;
+}
+
+main a:hover {
+    background-color: #A85527;
+    color: #FFF9EC;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.card-row section {
+    background-color: #FFF9EC;
+    border: 1px solid #A85527;
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    margin-top: 0.5rem;
+    max-width: 100%;
+}
+
+aside {
+    background-color: #1D402D;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+footer {
+    background-color: #1D402D;
+    color: #FFF9EC;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* ===== MEDIA QUERY (MEDIUM) ===== */
+@media screen and (min-width: 817px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .card-row {
+        display: flex;
+        gap: 1rem;
+}
+
+    .card-row section {
+        width: 30%;
+}
 }
