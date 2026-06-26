@@ -4,3 +4,4 @@ The pages included are About, Resume, Projects, and Contact.
 The HTML is semantic and validated. 
 The CSS is responsive.
 There is no Javascript. 
+https://geenzmarie.github.io/Buzzetta-Portfolio/
