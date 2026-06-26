@@ -97,6 +97,17 @@ aside a:hover {
     color: #FFF9EC;
 }
 
+.contact-links {
+    background-color:#1D402D;
+    color:#FFF9EC;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 20px;
+    text-transform:capitalize;
+}
+
 footer {
     background-color: #1D402D;
     color: #FFF9EC;
